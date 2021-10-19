@@ -1,0 +1,229 @@
+@media ( max-width: 992px )
+  .container
+    padding: 0 20px
+
+  .header__inner
+    flex-wrap: wrap
+    height: auto
+    padding-top: 25px
+
+  .menu
+    order: 1
+    width: 100%
+
+    &__btn
+      display: none
+
+  .menu__list
+    justify-content: flex-start
+    padding-top: 30px
+
+  .top__inner
+    background-image: none
+    padding: 0 0 60px
+    margin-top: 80px
+
+  .application-inner
+    padding: 80px 0 60px
+
+    &__img-wrap
+      margin-right: 110px
+
+  .communication-inner
+    padding: 46px 0 0 0
+
+  .healthcare
+    padding: 80px 0 40px
+
+  .healthcare-inner
+    padding: 0 0 75px
+
+@media ( max-width: 768px )
+  .application-inner__img-wrap
+    margin-right: 60px
+    width: 44%
+
+  .communication-inner
+    flex-direction: column
+
+    &__info
+      order: 2
+
+    &__info-text
+      max-width: initial
+
+    &__video-wrap
+      order: 1
+      margin: 0
+      margin-bottom: 80px
+
+  .communication-top
+    max-width: 80%
+
+    &__content
+      max-width: initial
+
+    &__content-count
+      font-size: 26px
+      line-height: 33px
+
+    &__icon-sm
+      left: -5%
+
+    &__icon-lg
+      right: -6%
+
+  .healthcare-inner
+    flex-direction: column
+    align-items: center
+
+    &__icon-sm
+      left: 66%
+      top: 56%
+
+    &__icon-sm-second
+      right: 24%
+      top: -3%
+
+    &__icon-md
+      top: 21%
+      left: 26%
+
+    &__icon-lg
+      bottom: 4%
+      left: 19%
+
+  .card + .card
+    margin-top: 30px
+    margin-left: 0
+
+@media ( max-width: 576px )
+  .title
+    font-size: 34px
+    line-height: 40px
+
+  .square-sm
+    width: 45px
+    height: 45px
+
+  .square-md
+    width: 77px
+    height: 77px
+
+  .square-lg
+    width: 110px
+    height: 110px
+
+  .container
+    padding: 0 10px
+
+  .header__inner
+    display: block
+
+  .menu__list
+    display: block
+    padding: 0
+    position: absolute
+    left: 0
+    right: 0
+    text-align: center
+    background: #FAFBFD
+    transition: all .6s
+    transform: translateY(-300%)
+
+    &_active
+      transition: all .6s
+      transform: translateY(0%)
+
+  .menu__list-link
+    display: block
+    padding: 12px 0
+
+  .menu__list-item + .menu__list-item
+    margin-left: 0
+
+  .menu__btn
+    display: block
+    position: absolute
+    right: 10px
+    top: 25px
+
+  .user-nav
+    margin-left: 0
+    margin-right: 0
+    text-align: center
+    padding-top: 30px
+
+  .intro__inner
+    display: none
+
+  .top__btn
+    margin-bottom: 80px
+
+  .application-inner
+    flex-direction: column
+
+    &__img-wrap
+      width: 100%
+      margin: 0
+
+    &__img
+      padding: 0
+
+    &__info
+      padding: 80px 0 60px
+
+    &__info-text
+      max-width: initial
+
+  .communication-top
+    max-width: 90%
+
+    &__icon-sm
+      left: -3%
+      bottom: 20%
+
+    &__icon-md
+      top: 20%
+      left: 26%
+
+    &__icon-lg
+      right: -3%
+      bottom: 25%
+
+    &__content
+      padding: 18px 0
+
+    &__content-count
+      font-size: 20px
+      line-height: 33px
+      margin: 0
+
+    &__content-text
+      letter-spacing: 0.1em
+
+  .healthcare-inner
+
+    &__icon-sm
+      left: 71%
+      top: 58%
+
+    &__icon-sm-second
+      right: 24%
+      top: -3%
+
+    &__icon-md
+      top: 23%
+      left: 16%
+
+    &__icon-lg
+      bottom: 4%
+      left: 19%
+    
+  .healthcare-bottom
+    &__btns
+      flex-direction: column
+    
+    &__btns-item + .healthcare-bottom__btns-item
+      margin-left: 0
+      transform: scale(1.04)
